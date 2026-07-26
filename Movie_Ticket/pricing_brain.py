@@ -47,4 +47,5 @@ else:
 if matinee:
     ticket_price -= 1.00  # Apply matinee discount
 
-print(customer_type + " ticket on " + ("discounted day" if discounted_day == "yes" else "regular day") + (" (Matinee discount applied)" if matinee else "") + ": $" + str(ticket_price))
+print(customer_type + " ticket on " + ("discounted day" if discounted_day == "yes" else "regular day") +
+       (" (Matinee discount applied)" if matinee else "") + ": $" + str(ticket_price))
